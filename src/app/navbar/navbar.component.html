@@ -1,6 +1,10 @@
 <div [ngClass]="'flex flex-row bg-white items-center border-b border-slate-200'">
   <div [ngClass]="'flex flex-row h-12 w-32'">
-    <img src="../../resources/images/talentsbase.png" [ngClass]="'flex flex-1 object-contain'" alt="talentsbase_logo"/>
+    <img
+      src="../../assets/images/talentsbase.png"
+      [ngClass]="'ml-2 flex flex-1 object-contain cursor-pointer'"
+      [routerLink]="['/']"
+      alt="talentsbase_logo"/>
   </div>
     <div [ngClass]="'flex flex-row flex-1 justify-end mr-2'">
         <div [ngClass]="'w-1/4 flex flex-row'">

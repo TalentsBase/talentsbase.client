@@ -16,7 +16,7 @@ export class SidebarComponent implements OnInit {
         title : "Dashboard",
         icon : "pi pi-chart-line",
         active: false,
-        activeColor: "text-blue-500",
+        activeColor: "text-yellow-300",
         linkForRouter: ""
       },
       {
@@ -24,7 +24,7 @@ export class SidebarComponent implements OnInit {
         title : "Projects",
         icon : "pi pi-box",
         active: false,
-        activeColor: "text-blue-500",
+        activeColor: "text-yellow-300",
         linkForRouter: "projects"
       },
       {
@@ -40,7 +40,7 @@ export class SidebarComponent implements OnInit {
         title : "Clients",
         icon : "pi pi-wallet",
         active: false,
-        activeColor: "text-blue-500",
+        activeColor: "text-yellow-300",
         linkForRouter: "clients"
       },
     ]
